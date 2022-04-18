@@ -1,4 +1,4 @@
-function checkLoginState() {
+//function checkLoginState() {
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
     console.log("hello world");
@@ -7,4 +7,4 @@ function checkLoginState() {
   });
 
   
-}
+//}
