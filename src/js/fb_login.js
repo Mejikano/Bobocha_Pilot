@@ -38,6 +38,3 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
-
-//load the JS SDK asynchronously
-async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js">
