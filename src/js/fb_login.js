@@ -29,7 +29,6 @@
       statusChangeCallback(response);        // Returns the login status.
     });
   };
- 
   function testAPI() {                      // Testing Graph API after login.  See statusChangeCallback() for when this call is made.
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
